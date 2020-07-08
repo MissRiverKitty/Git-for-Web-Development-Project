@@ -68,19 +68,16 @@ The id os a attribute that is used to specify a unique id for an HTML element.
        You use a period and the name of the class to select it.
 
     21. How do we select a p element with a single class of “human””?
-
-      I'll come back to this one later.
-
-
+    p.class {
+          }
 
     22. What is a parent child selector? When would this be useful? 
     it selects all elements that are a direct child of the specified element. 
     And I have no idea when it would be useful yet.
 
     23. How do you select all links within a div with the class of sidebar?
-
-    I'll come back later.
-
+        div.sidebar {
+                         }
     24. What is a pseudo selector?
     A pseudo selector is a selector that uses elements that are in a specific state..e.g like hover.
 
@@ -119,13 +116,31 @@ The id os a attribute that is used to specify a unique id for an HTML element.
 
    35. How often should I commit to github?
     As often as you think you need to.
-    
+
     36. What is the command we would use to push our repo up to github? 
+    git push 
+
     37. Walk me through Lambda's git flow. 
+     First you fork your own repo. If successful your name will be in front of the repo
+     then you clone your repo on git hub
+     then go to git bash and use the cd
+     Use git clone to clone the repo to the directory you are currently in
+     cd in to the new repo using the cd repo-name command
+     Use the **git checkout -b 'firstname-lastname' command
+      to create your own branch name for the repo
+
+    then to commit changes you use:
+    git add
+    git commit -m "with notes here"
+    git push -u and the origin branch name
+    checkout -b (first-last name)
+    now go to git hub and use pull request
+    double check to make sure its your forked copy and not lamdas
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
+    1. What is the difference between an inline element and a block element? 
+
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
